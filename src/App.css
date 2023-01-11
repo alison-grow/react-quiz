@@ -18,7 +18,7 @@ body {
   background-color: #252d4a;
   width: 450px;
   height: 500px;
-  /* height: min-content; */
+  height: min-content;
   border-radius: 15px;
   padding: 20px;
   box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
@@ -78,7 +78,7 @@ body {
 .score-section {
   display: flex;
   justify-content: center;
-  margin-top: 140px;
+  margin-top: 30px;
   margin-bottom: -60px;
 }
 
@@ -88,12 +88,8 @@ body {
 }
 
 .banner {
-  width: 100%;
-}
-
-.banner-btm {
-  width: 100%;
-  margin-top: 150px;
+  width: 50px;
+  height: 50px;
 }
 
 .refresh-btn {
@@ -106,7 +102,7 @@ body {
   border-radius: 15px;
   border: 5px solid #ffffff;
   cursor: url('https://cur.cursors-4u.net/symbols/sym-7/sym636.ani'), url('https://cur.cursors-4u.net/symbols/sym-7/sym636.png'), auto !important;
-  margin: 0px auto 0px auto;
+  margin: 0px auto 30px auto;
   font-family: 'Roboto Mono', monospace;
 }
 

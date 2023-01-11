@@ -115,14 +115,14 @@ export default function App() {
 		<div className='app'>
 			{showScore ? (
         <>
-        <img src="https://dl.glitter-graphics.com/pub/2024/2024455kpx2fhe4q8.gif" alt="stars" className="banner" />
           <div className='score-section'>
+            <img src="https://dl.glitter-graphics.com/pub/1401/1401811yho44c9apr.gif" alt="stars" className="banner" />
             You scored {score} out of {questions.length}!
+            <img src="https://dl.glitter-graphics.com/pub/1401/1401811yho44c9apr.gif" alt="stars" className="banner" />
           </div>
           <div className='btn-section'>
             <button className="refresh-btn" onClick={() => window.location.reload(false)}>Try Again!</button>
           </div>
-          <img src="https://dl.glitter-graphics.com/pub/2024/2024455kpx2fhe4q8.gif" alt="stars" className="banner-btm" />
         </>
 			) : (
 				<>
